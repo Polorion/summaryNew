@@ -50,7 +50,7 @@ const Left = () => {
       a: true,
     },
     { text: "Vkontakte", img: Vk, link: "https://vk.com/id2043446", a: true },
-    { text: "Telegrem", img: Tg, link: "https://t.me/PoloRioN", a: true },
+    { text: "Telegram", img: Tg, link: "https://t.me/PoloRioN", a: true },
   ];
   return (
     <div className={S.body}>
