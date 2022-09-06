@@ -14,7 +14,7 @@ import { ReactComponent as Wood } from "../../../assets/img/new/wood.svg";
 import { ReactComponent as Film } from "../../../assets/img/new/film.svg";
 import { ReactComponent as Cook } from "../../../assets/img/new/cook.svg";
 import { ReactComponent as Bag } from "../../../assets/img/new/bag.svg";
-import { ReactComponent as Con } from "../../../assets/img/new/con.svg";
+import { ReactComponent as Con } from "../../../assets/img/new/contn.svg";
 import { ReactComponent as Book } from "../../../assets/img/new/book.svg";
 import LiHref from "../../UI/List/Li/LiHref";
 import LiItem from "../../UI/List/Li/LiItem";
