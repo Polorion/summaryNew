@@ -1,0 +1,43 @@
+.block {
+  flex: 0 0 50%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+
+  .body {
+    display: block;
+    border: 5px solid #3f5602;
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    .title {
+      font-size: 20px;
+      text-align: center;
+      font-weight: 800;
+    }
+    .imgBlock {
+      width: 100%;
+      height: 100%;
+      max-width: 500px;
+      max-height: 500px;
+      flex: 1 1 auto;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .text {
+      font-size: 20px;
+      text-align: center;
+      color: black;
+    }
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .block {
+    flex: 1 1 100%;
+  }
+}

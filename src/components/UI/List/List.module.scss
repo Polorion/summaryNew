@@ -1,0 +1,95 @@
+.ul {
+  div {
+    &.stec {
+      display: flex;
+    }
+    &.flex {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      margin: 0 -10px;
+      .item {
+        flex: 0 0 33%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 20px 0;
+        padding: 0 10px;
+        span {
+          text-align: center;
+        }
+        svg {
+          width: 70px;
+          height: 70px;
+          margin-right: 0;
+          padding: 0;
+        }
+      }
+    }
+  }
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  .nameListItem {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .nameList {
+    white-space: nowrap;
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  .nameListZero {
+    position: relative;
+
+    bottom: 5px;
+    width: 100%;
+    border-bottom: 3px solid #000000;
+  }
+  .item {
+    display: flex;
+    align-items: center;
+    color: var(--black);
+    font-size: 20px;
+    &.hover {
+      a {
+        transition: all 0.5s ease;
+        &:hover {
+          color: var(--blue) !important;
+          transform: scale(1.1);
+        }
+      }
+    }
+    a {
+      display: flex;
+      align-items: center;
+      color: var(--black);
+    }
+    &.pointer {
+      cursor: pointer;
+    }
+    .anim {
+      animation: color 5s ease infinite;
+    }
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    svg {
+      margin-right: 20px;
+    }
+  }
+}
+
+@keyframes color {
+  0% {
+    color: #2020d3;
+  }
+  50% {
+    color: #245716;
+    transform: scale(1.5) translateX(30px);
+  }
+  100% {
+    color: #2020d3;
+  }
+}

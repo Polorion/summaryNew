@@ -1,0 +1,40 @@
+.libod {
+  padding: 0 10px;
+  flex: 1 1 50%;
+  .body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .img {
+      width: 60px;
+      height: 60px;
+      margin-right: 20px;
+      display: flex;
+    }
+    .progress {
+      width: 100%;
+      .lineBody {
+        width: 100%;
+        position: relative;
+        height: 30px;
+        background-color: var(--darkgreen);
+        border-radius: 30px;
+        .line {
+          position: absolute;
+          width: 97%;
+          height: 20px;
+          background-color: var(--darkgreen);
+          top: 5px;
+          left: 4px;
+          border-radius: 30px;
+          overflow: hidden;
+          .row {
+            height: 100%;
+            background-color: var(--yellow);
+            border-radius: 30px;
+          }
+        }
+      }
+    }
+  }
+}
