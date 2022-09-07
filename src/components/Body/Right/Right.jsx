@@ -87,7 +87,7 @@ const Right = () => {
     { text: "WebPack", progres: "35", img: Webpack },
     { text: "Flux", progres: "70", img: Flux },
     { text: "GIT", progres: "60", img: Git },
-    { text: "Hooks", progres: "70", img: Hyk },
+    { text: "Hooks", progres: "100", img: Hyk },
     { text: "JWT-Token", progres: "60", img: Token },
   ];
   return (
