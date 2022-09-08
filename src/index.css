@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 :root {
-  --yellow: #d3ac10;
+  --yellow: #e59113;
   --black: #333333;
   --white: #c7c7c7;
-  --darkgreen: #0a4202;
+  --darkgreen: rgba(5, 77, 86, 1);
   --blue: #024b96;
 }
 
@@ -30,6 +30,7 @@ code {
   margin: 30px auto;
   padding: 0 30px;
   display: flex;
+  padding-bottom: 40px;
 }
 /*@media screen and (max-width: 790px) {*/
 /*  .container {*/

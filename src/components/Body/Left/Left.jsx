@@ -30,7 +30,7 @@ const Left = () => {
   ];
   const inter = [
     { text: "Люблю Лыжи", img: Wood },
-    { text: "Обажаю Фильмы", img: Film },
+    { text: "Обожаю Фильмы", img: Film },
     { text: "Готовлю", img: Cook },
     { text: "Походы", img: Bag },
     { text: "Катаюсь на коньках", img: Con },
@@ -79,7 +79,7 @@ const Left = () => {
           );
         })}
       </List>{" "}
-      <List name={"Улечения"} flex={true}>
+      <List name={"Увлечения"} flex={true}>
         {inter.map((el) => {
           return (
             <LiInter
