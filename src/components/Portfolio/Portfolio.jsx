@@ -6,6 +6,7 @@ import pomodoro from "../../assets/img/pomodoro.png";
 import todo from "../../assets/img/todo.png";
 import timer from "../../assets/img/timer.png";
 import reddit from "../../assets/img/reddit.png";
+import verstka from "../../assets/img/verstkatest.png";
 import js from "../../assets/img/js.png";
 import { useNavigate } from "react-router-dom";
 import GeneratorRandomString from "../../utils/GeneratorRandomString";
@@ -28,6 +29,12 @@ const Portfolio = () => {
       info: "Таймер помогает контролировать рабочее время и не забывает напомнить когда надо отдохнуть",
       img: pomodoro,
       url: "https://pomodoro-hazel.vercel.app/",
+    },
+    {
+      title: "Тестовое задание адаптивная верстка",
+      info: "Верстка сайта на React и элементами адаптива и навигации",
+      img: verstka,
+      url: "https://will-skill-test-jade.vercel.app/",
     },
     {
       title: "Таймер",
