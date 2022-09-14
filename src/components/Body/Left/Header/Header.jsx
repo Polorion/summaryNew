@@ -1,6 +1,6 @@
 import * as React from "react";
 import S from "./Header.module.scss";
-import avatar from "../../../../assets/img/foto.png";
+import avatar from "../../../../assets/img/foto.webp";
 const Header = () => {
   return (
     <div className={S.body}>
