@@ -18,6 +18,9 @@ import { ReactComponent as Scss } from "../../../assets/img/new/scss.svg";
 import { ReactComponent as Token } from "../../../assets/img/new/token.svg";
 import { ReactComponent as Ts } from "../../../assets/img/new/ts.svg";
 import { ReactComponent as Webpack } from "../../../assets/img/new/WebPack.svg";
+import { ReactComponent as MobX } from "../../../assets/img/new/mobx.svg";
+import { ReactComponent as Saga } from "../../../assets/img/new/reduxSaga.svg";
+import { ReactComponent as Thunk } from "../../../assets/img/new/thunk.svg";
 import { ReactComponent as Figma } from "../../../assets/img/new/figma.svg";
 import LiSkill from "../../UI/List/Li/LiSkill";
 import GeneratorRandomString from "../../../utils/GeneratorRandomString";
@@ -83,6 +86,9 @@ const Right = () => {
     { text: "HTML", progres: "90", img: Html },
     { text: "SCSS", progres: "50", img: Scss },
     { text: "RestApi", progres: "90", img: Api },
+    { text: "MobX", progres: "60", img: MobX },
+    { text: "Redux-Saga", progres: "70", img: Saga },
+    { text: "Redux-Thunk", progres: "90", img: Thunk },
     { text: "BEM", progres: "80", img: Bem },
     { text: "WebPack", progres: "35", img: Webpack },
     { text: "Flux", progres: "70", img: Flux },

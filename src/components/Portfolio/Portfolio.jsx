@@ -7,6 +7,7 @@ import todo from "../../assets/img/todo.png";
 import timer from "../../assets/img/timer.png";
 import reddit from "../../assets/img/reddit.png";
 import verstka from "../../assets/img/verstkatest.png";
+import todoMobx from "../../assets/img/todoMobX.png";
 import js from "../../assets/img/js.png";
 import { useNavigate } from "react-router-dom";
 import GeneratorRandomString from "../../utils/GeneratorRandomString";
@@ -35,6 +36,12 @@ const Portfolio = () => {
       info: "Верстка сайта на React и элементами адаптива и навигации",
       img: verstka,
       url: "https://will-skill-test-jade.vercel.app/",
+    },
+    {
+      title: "Тестовое задание Todo React+MobX+TS+адаптив",
+      info: "Todo на React+MobX+TS+адаптив",
+      img: todoMobx,
+      url: "https://todo-type-script-mob-x.vercel.app/",
     },
     {
       title: "Таймер",
