@@ -9,6 +9,7 @@ import reddit from "../../assets/img/reddit.webp";
 import verstka from "../../assets/img/verstkatest.webp";
 import todoMobx from "../../assets/img/todoMobX.webp";
 import js from "../../assets/img/js.webp";
+import JWTToken from "../../assets/img/JWTTOKEN.webp";
 import { useNavigate } from "react-router-dom";
 import GeneratorRandomString from "../../utils/GeneratorRandomString";
 
@@ -30,6 +31,12 @@ const Portfolio = () => {
       info: "Таймер помогает контролировать рабочее время и не забывает напомнить когда надо отдохнуть",
       img: pomodoro,
       url: "https://pomodoro-hazel.vercel.app/",
+    },
+    {
+      title: "JWT-Token Redux-Saga",
+      info: "Redux-saga + работа с RestApi + JWT-Token",
+      img: JWTToken,
+      url: "https://jwtt-oken-redux-saga.vercel.app/",
     },
     {
       title: "Тестовое задание адаптивная верстка",
